@@ -7,7 +7,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.2]
       t.string :location
       t.integer :costume_inventory
       t.integer :num_of_employees
-      t.string :size
+      t.boolean :size
       t.timestamps
     end
   end
